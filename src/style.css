@@ -1,0 +1,19 @@
+.gal{
+    
+    width:200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    padding:10px
+}
+.ImageGallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    justify-content: center; /* Center the grid horizontally */
+    gap: 10px; /* Adds space between grid items */
+    max-width :650px; 
+    align-items: center;
+    
+    
+    margin: 0 auto; 
+    margin-top: 40px;;
+}
